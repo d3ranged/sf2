@@ -1,0 +1,7 @@
+alias h help
+alias c cls
+alias l 'load'
+alias q quit
+alias p files
+alias sf "run 'clamscan --remove=yes {}' -f $out ; echo ; files"
+alias scan "run 'clamscan --remove=yes {} --no-summary ' -f $out" -s
